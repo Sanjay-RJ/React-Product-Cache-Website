@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap");
+ul {
+    list-style-type: none;
+  }
+.Format{
+    display: flex;
+    flex-direction: row;
+    padding: 1%;
+    justify-content: space-between;
+}
+.Format h2{
+    padding: 1%;
+}
+.inning{
+    margin: 1%;
+}
+.finally{
+    display: flex;
+    flex-direction: row;
+    padding: 1%;
+    justify-content: space-between;
+}
+.finally h3{
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.data{
+    padding: 2%;
+    font-family: "Quicksand", sans-serif;
+}
+.details{
+    border-collapse: separate;
+  border-spacing: 40px;
+  border-collapse: expression('separate', cellSpacing='10px');
+}
+th{
+    font-family: "Roboto Condensed", sans-serif;
+}
+.heading{
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    font-family: 'Quicksand', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    /* font-family: 'Handjet', monospace; */
+    background-color: rgb(97, 163, 186);
+}
+.details{
+    box-shadow: 0 2px 80px rgba(0, 0, 0, 0.4);
+    text-align: center;
+}
+
+form {
+    padding: 10px;
+}
+.help{
+    background-color: rgb(68, 163, 166);
+}
+table.details {
+    background-color: cadetblue;
+}
+div#root {
+    background-color: cadetblue;
+}
+html {
+    background-color: cadetblue;
+}
+.standard{
+    text-align: center;
+    border-collapse: separate;
+  border-spacing: 40px;
+  border-collapse: expression('separate', cellSpacing='10px');
+  box-shadow: 0 2px 80px rgba(0, 0, 0, 0.4);
+  background-color: cadetblue;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
